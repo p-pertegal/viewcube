@@ -1,0 +1,37 @@
+# Official format description at https://citation-file-format.github.io
+cff-version: 1.2.0
+message: "Cite this paper whenever you use Viewcube"
+authors:
+- family-names: "García Riber"
+  given-names: "Adrián"
+- family-names: "García-Benito"
+  given-names: "Rubén"
+- family-names: "Serradilla"
+  given-names: "Francisco"
+title: "Interactive multimodal integral field spectroscopy"
+version: "v1"
+license: "MIT"
+doi: "10.1093"
+date-released: 2024-12-10
+url: ""
+preferred-citation:
+  authors:
+    - family-names: "García Riber"
+      given-names: "Adrián"
+    - family-names: "García-Benito"
+      given-names: "Rubén"
+    - family-names: "Serradilla"
+      given-names: "Francisco"
+  doi: "10.1093"
+  journal: "RAS Techniques and Instruments"
+  month: 12
+  start: 748
+  end: 758
+  pages: 10
+  title: "Interactive multimodal integral field spectroscopy "
+  type: article
+  volume: 3
+  issue: 1
+  year: 2024
+  publisher:
+    name: "RAS"
