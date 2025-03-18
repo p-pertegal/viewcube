@@ -11,7 +11,7 @@ authors:
 title: "Interactive multimodal integral field spectroscopy"
 version: "v1"
 license: "MIT"
-doi: "10.1093"
+doi: "10.1093/7905048"
 date-released: 2024-12-10
 url: ""
 preferred-citation:
@@ -22,7 +22,7 @@ preferred-citation:
       given-names: "Rubén"
     - family-names: "Serradilla"
       given-names: "Francisco"
-  doi: "10.1093"
+  doi: "10.1093/7905048"
   journal: "RAS Techniques and Instruments"
   month: 12
   start: 748
