@@ -1,4 +1,13 @@
 # ViewCube - Datacube Visualization [& Sonification] Tool
+![](https://badgen.net/github/watchers/p-pertegal/viewcube)
+![](https://badgen.net/github/stars/p-pertegal/viewcube)
+![](https://badgen.net/github/forks/p-pertegal/viewcube)
+![](https://badgen.net/github/open-issues/p-pertegal/viewcube)
+![](https://badgen.net/github/merged-prs/p-pertegal/viewcube)
+![](https://badgen.net/github/last-commit/p-pertegal/viewcube)
+![](https://badgen.net/static/Python/3/green)
+
+---
 
 **ViewCube** is a user-friendly datacube visualizer designed to streamline the exploration and 
 analysis of multi-dimensional datasets. It enables easy visualization and interaction with 
