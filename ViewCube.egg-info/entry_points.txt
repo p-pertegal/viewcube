@@ -1,0 +1,2 @@
+[console_scripts]
+ViewCube = viewcube.main:main

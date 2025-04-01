@@ -1,0 +1,9 @@
+numpy
+astropy
+
+[sonicube]
+hashlib
+tensorflow
+pythonosc
+ctcsound
+librosa
