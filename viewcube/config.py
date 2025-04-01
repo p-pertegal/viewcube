@@ -165,6 +165,23 @@ def GetConfig(dictParams, filerc=viewcuberc):
 
 
 # ---------------------------------------------------------------------------
-
+def WriteConfigFile(idict=defaultParams, cdict=None, filerc=viewcuberc):
+    with open(filerc, "w") as ff:
+        ff.write("[VIEWCUBE] #%% Version: %s\n" % __version__)
+        if isinstance(idict, (tuple, list)):
+            for key, val, com in idict:
+                if key != "version":
+                    ff.write("#%% %s\n" % (com))
+                    ff.write("%-18s   = %s\n\n" % (key, val))
+        else:
+            for key in list(idict.keys()):
+                if key != "version":
+                    if cdict is not None:
+                        ff.write("#%% %s\n" % (cdict[key]))
+                    if defaultParams[key] != idict[key]:
+                        ff.write("%-18s   = %s\n\n" % (key, idict[key]))
+                    else:
+                        ff.write("#%-18s   = %s\n\n" % (key, idict[key]))
+    print('*** ViewCube Config File "%s" created! ***' % (filerc))
 
 defaultDictParams = GetDefaultParams(defaultParams)
