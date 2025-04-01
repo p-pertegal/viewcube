@@ -142,7 +142,7 @@ def GetDefaultParams(idict=defaultParams, value=True):
 def GetConfig(dictParams, filerc=viewcuberc):
     rcname = os.path.join(os.curdir, filerc)
     if not os.path.exists(rcname):
-        rcname = os.path.join(os.environ["HOME"], "." + filerc)
+        rcname = os.path.join(os.environ.get("HOME", os.environ["USERPROFILE"]), "." + filerc)
         if not os.path.exists(rcname):
             print('*** ViewCube configuration file "%s" NOT found!! ***' % filerc)
             print('*** Run "ViewCube --config-file" to create one! ***')
